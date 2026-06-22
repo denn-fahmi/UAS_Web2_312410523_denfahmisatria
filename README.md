@@ -29,24 +29,24 @@ UAS_Web2_312410523_denfahmisatria/
 > Silakan ambil screenshot dari sistem lokal Anda sendiri dan simpan ke folder `screenshots/` dengan nama file yang sesuai agar dapat tampil di bawah ini.
 
 ### 1. Skema Relasi Tabel Database (phpMyAdmin Designer)
-![Skema Relasi Database](screenshots/db_schema.png)
+![Skema Relasi Database](screenshots/db_schema.PNG)
 
 ### 2. Uji Coba Tembak API Gagal (Error 401 Unauthorized - Postman)
-![Uji Coba Postman 401](screenshots/postman_401.png)
+![Uji Coba Postman 401](screenshots/postman_401.PNG)
 
 ### 3. Antarmuka Halaman Login (Neumorphism Design)
-![Halaman Login](screenshots/login.png)
+![Halaman Login](screenshots/login.PNG)
 
 ### 4. Antarmuka Halaman Dashboard Admin
-![Halaman Dashboard](screenshots/dashboard.png)
+![Halaman Dashboard](screenshots/dashboard.PNG)
 
 ### 5. Tampilan Form Modal (Tambah/Edit Data Barang)
-![Tampilan Form Modal](screenshots/form_modal.png)
+![Tampilan Form Modal](screenshots/form_modal.PNG)
 
-![Tampilan Form Modal](screenshots/form_modal1.png)
+![Tampilan Form Modal](screenshots/form_modal1.PNG)
 
 ### 6. Visualisasi Data pada Tabel Barang & Kategori (TailwindCSS)
-![Visualisasi Data Tabel](screenshots/table.png)
+![Visualisasi Data Tabel](screenshots/table.PNG)
 
 ---
 
