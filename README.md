@@ -43,6 +43,8 @@ UAS_Web2_312410523_denfahmisatria/
 ### 5. Tampilan Form Modal (Tambah/Edit Data Barang)
 ![Tampilan Form Modal](screenshots/form_modal.png)
 
+![Tampilan Form Modal](screenshots/form_modal1.png)
+
 ### 6. Visualisasi Data pada Tabel Barang & Kategori (TailwindCSS)
 ![Visualisasi Data Tabel](screenshots/table.png)
 
@@ -94,4 +96,4 @@ Karena frontend dibangun sebagai Single Page Application murni menggunakan clien
 **Dibuat oleh:**
 * **Nama**: Den Fahmi Satria
 * **NIM**: 312410523
-* **Kelas**: TI.24.A.1 (Web Programming II / UAS)
+* **Kelas**: I241E (Web Programming II / UAS)
