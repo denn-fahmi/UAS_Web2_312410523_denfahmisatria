@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Fahmi</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Konfigurasi Tailwind Neumorphism -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neu: {
+                            bg: '#e0e5ec',
+                            primary: '#475569',
+                            accent: '#6366f1',
+                            success: '#22c55e',
+                            danger: '#ef4444'
+                        }
+                    },
+                    boxShadow: {
+                        'neu-out': '9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5)',
+                        'neu-in': 'inset 6px 6px 10px 0 rgba(163,177,198, 0.7), inset -6px -6px 10px 0 rgba(255,255,255, 0.8)',
+                        'neu-sm': '4px 4px 8px rgb(163,177,198,0.6), -4px -4px 8px rgba(255,255,255, 0.5)',
+                        'neu-sm-in': 'inset 3px 3px 6px rgb(163,177,198,0.6), inset -3px -3px 6px rgba(255,255,255, 0.5)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Vue 3 Composition API -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Vue Router -->
+    <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <!-- Custom Style/CSS if any -->
+    <style>
+        .fade-enter-active, .fade-leave-active { transition: opacity 0.3s; }
+        .fade-enter-from, .fade-leave-to { opacity: 0; }
+        
+        /* Neumorphic Form Elements Helper */
+        input:focus, select:focus, button:focus { outline: none; }
+    </style>
+</head>
+<body class="bg-neu-bg text-neu-primary font-sans">
+    <div id="app" class="min-h-screen flex flex-col">
+        <!-- Komponen Navbar akan ditampilkan jika tidak berada di rute login -->
+        <navbar-component v-if="!isLoginPage"></navbar-component>
+
+        <!-- Vue Router View -->
+        <main class="flex-1 flex flex-col p-4">
+            <router-view v-slot="{ Component }">
+                <transition name="fade" mode="out-in">
+                    <component :is="Component" />
+                </transition>
+            </router-view>
+        </main>
+    </div>
+
+    <!-- Load Components -->
+    <script src="js/components/Navbar.js?v=3"></script>
+    <script src="js/components/Login.js?v=3"></script>
+    <script src="js/components/Dashboard.js?v=3"></script>
+    <script src="js/components/Categories.js?v=3"></script>
+    <script src="js/components/Items.js?v=3"></script>
+
+    <!-- Load Router & App -->
+    <script src="js/router.js?v=3"></script>
+    <script src="js/app.js?v=3"></script>
+</body>
+</html>
