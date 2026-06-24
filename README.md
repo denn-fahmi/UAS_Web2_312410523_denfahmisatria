@@ -89,7 +89,7 @@ Karena frontend dibangun sebagai Single Page Application murni menggunakan clien
 
 ## 🔗 Link Tautan Proyek
 
-* **Video Presentasi YouTube**: [TULIS_LINK_YOUTUBE_DI_SINI](https://youtube.com/)
+* **Video Presentasi YouTube**: [TULIS_LINK_YOUTUBE_DI_SINI]([https://youtube.com/](https://youtu.be/CapQo4cXmTk))
 * **Demo Aplikasi Online** (jika ada): [TULIS_LINK_DEMO_DI_SINI](https://github.com/)
 
 ---
