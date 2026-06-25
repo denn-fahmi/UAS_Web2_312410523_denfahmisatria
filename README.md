@@ -48,6 +48,9 @@ UAS_Web2_312410523_denfahmisatria/
 ### 6. Visualisasi Data pada Tabel Barang & Kategori (TailwindCSS)
 ![Visualisasi Data Tabel](screenshots/table.PNG)
 
+### 7. Postman uji coba tembak API gagal (error 401)
+![Postan uji coba tembak API](screenshots/postman_401.PNG)
+
 ---
 
 ## 🚀 Petunjuk Instalasi & Cara Menjalankan Proyek
